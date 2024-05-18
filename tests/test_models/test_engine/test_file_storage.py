@@ -42,7 +42,6 @@ class testFileStorage(unittest.TestCase):
 
     def test_all(self):
         """Test that all() returns the __objects dictionary"""
-        Test that all() returns the __objects dictionary
         objects = self.file_storage.all()
         self.assertIsInstance(objects, dict)
 
